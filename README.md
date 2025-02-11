@@ -29,13 +29,17 @@ Result Display:
 The application overlays the predicted label and the bounding box on the webcam feed, providing real-time feedback. If no hand is detected, a message like "No Hands Detected" will be displayed.
 
 Model Information:
-Model Type: SavedModel format in TensorFlow
+Model Type: SavedModel format in TensorFlow  
+
 Input Size: 300x300 pixels
+
 Output: Predicted gesture label based on the input image
+
 Limitations:
 Best performance is achieved in well-lit environments.
 The model may struggle with overlapping or multiple hands in the frame.
 The accuracy is contingent on the quality of the training dataset.
+
 Future Enhancements:
 Extend support for more sign language gestures.
 Improve classification accuracy with a larger and more diverse dataset.
